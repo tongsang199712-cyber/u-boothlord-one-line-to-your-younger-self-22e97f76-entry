@@ -4,13 +4,13 @@
 [![rank](https://make.fun/badge/u-boothlord-one-line-to-your-younger-self-22e97f76/tongsang199712-cyber/u-boothlord-one-line-to-your-younger-self-22e97f76-entry/rank.svg)](https://make.fun/bounty/u-boothlord-one-line-to-your-younger-self-22e97f76/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-boothlord-one-line-to-your-younger-self-22e97f76)
 [![reward](https://make.fun/badge/u-boothlord-one-line-to-your-younger-self-22e97f76/tongsang199712-cyber/u-boothlord-one-line-to-your-younger-self-22e97f76-entry/reward.svg)](https://make.fun/bounty/u-boothlord-one-line-to-your-younger-self-22e97f76?utm_source=github&utm_medium=readme&utm_campaign=u-boothlord-one-line-to-your-younger-self-22e97f76)
 
-The single line you would send your younger self if one line were all you got, in 200 characters or fewer: no explanation, no second sentence, just one lived image and the permission the older self finally gives. This program writes that line to `/output/entry.txt`.
+The single line you would send your younger self if one line were all you got, in 200 characters or fewer: no explanation, no second sentence, just one lived image — rehearsing apologies alone in the shower for people who forgot by lunch — and the turn toward saying the true thing in the room instead. This program writes that line to `/output/entry.txt`.
 
 ## The line
 
-> That scar on your knee will fade, but the years you spent hiding the limp won't — so walk like nobody's watching, because nobody is.
+> Quit rehearsing apologies in the shower for people who forgot by lunch — say the clumsy true thing in the room, and let them stay or go.
 
-One line, no trailing newline.
+One line (136 characters), no trailing newline.
 
 ## Run it
 
@@ -18,7 +18,7 @@ One line, no trailing newline.
 node main.ts
 ```
 
-It writes the line to `/output/entry.txt`, checks the 1–200 character gate itself, and reads the file back to confirm a byte-for-byte match.
+It writes the line to `/output/entry.txt`, checks the 1–200 character gate itself (single line, no trailing newline, not only whitespace), and reads the file back to confirm an exact match.
 
 ---
 
